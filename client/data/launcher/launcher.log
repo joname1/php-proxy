@@ -1,0 +1,25 @@
+Feb 02 23:26:27.249 - [ERROR] xxnet_version fail:IOError(2, 'No such file or directory')
+Feb 02 23:26:27.249 - [ERROR] Except stack:Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\client\launcher\update_from_github.py", line 92, in parse_readme_versions
+    fd = open(readme_file, "r")
+IOError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\Desktop\\client\\README.md'
+
+Feb 02 23:26:27.249 - [INFO] start XX-Net get_version_fail
+Feb 02 23:26:27.249 - [DEBUG] start confirm_xxnet_exit
+Feb 02 23:26:28.259 - [DEBUG] good, xxnet:8087 cleared!
+Feb 02 23:26:29.259 - [DEBUG] good, xxnet:8085 clear!
+Feb 02 23:26:29.259 - [DEBUG] finished confirm_xxnet_exit
+Feb 02 23:26:29.275 - [INFO] module php_proxy started
+Feb 02 23:26:29.275 - [INFO] start php_proxy time cost 16
+Feb 02 23:26:29.275 - [INFO] begin to start web control
+Feb 02 23:26:29.275 - [INFO] launcher web control started.
+Feb 02 23:26:30.369 - [INFO] get uuid:fe6ebfe2-fb82-417a-b11c-13ff0d60d61f
+Feb 02 23:26:30.369 - [ERROR] xxnet_version fail:IOError(2, 'No such file or directory')
+Feb 02 23:26:30.369 - [ERROR] Except stack:Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\client\launcher\update_from_github.py", line 92, in parse_readme_versions
+    fd = open(readme_file, "r")
+IOError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\Desktop\\client\\README.md'
+
+Feb 02 23:26:31.393 - [WARNING] check_update fail:URLError(error(10061, ''),)
+Feb 02 23:26:31.393 - [INFO] download https://raw.githubusercontent.com/XX-net/XX-Net/master/README.md to C:\Users\Administrator\Desktop\client\data\downloads\README.md, retry:0
+Feb 02 23:26:35.530 - [INFO] module php_proxy stopped
