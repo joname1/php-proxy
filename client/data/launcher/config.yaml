@@ -1,0 +1,6 @@
+language: zh_CN
+modules:
+  gae_proxy: {auto_start: 0}
+  launcher: {allow_remote_connect: 0, control_port: 8085, popup_webui: 0, proxy: pac}
+  php_proxy: {auto_start: 1, control_port: 8083}
+update: {last_path: 'D:\XX-Net\php\launcher', uuid: fe6ebfe2-fb82-417a-b11c-13ff0d60d61f}
